@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adi Shankara Institute of Engineeering And Technology</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .text {
+            text-decoration: underline;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color:#002244;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            height: 80px;
+            margin-right: 50px;
+        }
+
+        .asiet {
+            flex: 1;
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        .nav {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .college {
+            width: 100%;
+            max-height: 650px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2.text, h3.text {
+            color: #002244;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a.register-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #002244;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        a.register-link:hover {
+            background-color: #004488;
+        }
+
+        footer {
+            background-color: #002244;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.jpeg" class="logo" >
+        <h2 class="asiet">ADI SHANKARA INSTITUTE OF ENGINEERING AND TECHNOLOGY</h2>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section id="home">
+            <img src="college.jpeg" class="college">
+        </section>
+
+ 
+        <section id="news">
+            <h2 class="text">Latest News</h2>
+            <ul>
+                <li>Admissions for 2025-26 are now open.</li>
+                <li>ASAP Hackathon scheduled for July 20, 2025.</li>
+                <li>Placement drive by TCS and Infosys on August 10.</li>
+            </ul>
+        </section>
+
+ 
+        <section id="about">
+            <h2 class="text">Courses Offered</h2>
+            <p>
+                Adi Shankara Institute of Engineering and Technology offers a wide range of programs aimed at nurturing engineering excellence:
+            </p>
+            <ul>
+                <li>B.Tech in various engineering disciplines</li>
+                <li>M.Tech in specialized fields like Power Electronics, Computer Science, etc.</li>
+                <li>Ph.D. programs in selected departments</li>
+            </ul>
+
+            <h3 class="text">Computer Science and Engineering</h3>
+            <p>
+                Welcome to the Department of Computer Science and Engineering at Adi Shankara Institute of Engineering and Technology. Established in 2001, the department has been an integral part of our college since its inception. Our NBA-accredited department offers B.Tech, M.Tech, and Ph.D. degrees, providing comprehensive education and research opportunities in the field.
+            </p>
+
+            <h3 class="text">Electrical and Electronics Engineering</h3>
+            <p>
+                    The Electrical and Electronics Department, established in 2001 and affiliated with Kerala Technological University, is a hub of innovation and learning in electrical engineering and electronic technologies. Offering B.Tech in Electrical and Electronics Engineering and M.Tech programs in Power Electronics and Power Systems, and recognized as an approved research center under KTU, the department combines theoretical foundations with practical applications.
+            </p>
+
+            <h3 class="text">Electronics and Communication Engineering</h3>
+            <p>
+                The Electronics and Communication Engineering (ECE) Department is one of the oldest of the departments of the institute and was established in 2001.
+                The initial journey was concentrated towards setting up the UG program (B. Tech. in Electronics and Communication Engineering) followed by M. Tech Programs in two specializations (M. Tech. in VLSI and Embedded Systems and M. Tech. in Communication Engineering).
+            </p>
+
+            <h3 class="text">Civil Engineering</h3>
+            <p>
+                The Department of Civil Engineering of Adi Shankara Institute of Engineering and Technology has been functioning since 2013. Initially the Department was affiliated to Mahatma Gandhi University, Kottayam. Currently, the department offers a four year B.Tech programme under the affiliation of APJ Abdul Kalam Technological University (KTU) . The Department has a sanctioned intake of 60 students under the programme. The Department has grown tremendously over the past eleven years and have eight batches of students who have graduated from the Department. This is a professionally run department, focusing on an education system that emphasizes deep learning of the fundamentals, research and entrepreneurship to contribute to society and environment. The Department is accredited by the National Board of Accreditation (NBA) for the academic years 2024-25, 2025-26 and 2026-27.
+            </p>
+        </section>
+
+        
+        <section id="contact">
+            <h2 class="text">Contact Us</h2>
+            <p><strong>Address:</strong> Adi Shankara Institute of Engineering and Technology, Kalady, Kerala</p>
+            <p><strong>Email:</strong> info@adishankara.ac.in</p>
+            <p><strong>Phone:</strong> +91 484 2463825</p>
+        </section>
+
+        <a href="register.html" class="register-link">Register Here</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Adi Shankara Institute of Engineering and Technology. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+forbregistration  closed page
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a:link{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h3>Registration Closed</h3>
+    <a href="p1.html">Back to logo page</a>
+</body>
+</html>
